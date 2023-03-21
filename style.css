@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    background-color: rgb(182, 196, 219) ;
+    display: block;
+    -ms-flex-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: x-large;
+}
+
+.yellow{
+   background: yellow center 20px;
+   display: inline-block;
+   padding: 0 90px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60vh;
+    width:55vh;
+    margin: auto;
+    font-size: larger;
+}
+.email{
+    height: 5vh;
+    width: 45vh;
+}
+
+.signIn{
+    
+    background-color: rgb(20, 20, 74);
+    color: white;
+}
+.forgot{
+    background-color: rgb(42, 42, 80);
+    color: white;
+    padding: 1.5vh 17vh;
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: rgb(41, 75, 162);
+    color: white;
+    font-size: larger;
+    margin: 15px;
+    padding: 25px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 40vh;
+    width:55vh;
+    margin: auto;
+    font-size: larger;
+}
+
+.forget{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 30vh;
+    width:55vh;
+    margin: auto;
+    font-size: larger;
+}
+.get{
+     color: white;
+     background-color: rgb(14, 39, 48);
+     padding:  10px 18px;
+}
